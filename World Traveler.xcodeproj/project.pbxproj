@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3EF025F18EC40A7008F5193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF025E18EC40A7008F5193 /* Foundation.framework */; };
+		D3EF026118EC40A7008F5193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026018EC40A7008F5193 /* CoreGraphics.framework */; };
+		D3EF026318EC40A7008F5193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026218EC40A7008F5193 /* UIKit.framework */; };
+		D3EF026918EC40A7008F5193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EF026718EC40A7008F5193 /* InfoPlist.strings */; };
+		D3EF026B18EC40A7008F5193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF026A18EC40A7008F5193 /* main.m */; };
+		D3EF026F18EC40A7008F5193 /* FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */; };
+		D3EF027218EC40A7008F5193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EF027018EC40A7008F5193 /* Main.storyboard */; };
+		D3EF027518EC40A7008F5193 /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF027418EC40A7008F5193 /* FMViewController.m */; };
+		D3EF027718EC40A7008F5193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EF027618EC40A7008F5193 /* Images.xcassets */; };
+		D3EF027E18EC40A8008F5193 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF027D18EC40A8008F5193 /* XCTest.framework */; };
+		D3EF027F18EC40A8008F5193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF025E18EC40A7008F5193 /* Foundation.framework */; };
+		D3EF028018EC40A8008F5193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026218EC40A7008F5193 /* UIKit.framework */; };
+		D3EF028818EC40A8008F5193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EF028618EC40A8008F5193 /* InfoPlist.strings */; };
+		D3EF028A18EC40A8008F5193 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF028918EC40A8008F5193 /* World_TravelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3EF028118EC40A8008F5193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EF025318EC40A7008F5193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3EF025A18EC40A7008F5193;
+			remoteInfo = "World Traveler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3EF025B18EC40A7008F5193 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EF025E18EC40A7008F5193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3EF026018EC40A7008F5193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3EF026218EC40A7008F5193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3EF026618EC40A7008F5193 /* World Traveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Traveler-Info.plist"; sourceTree = "<group>"; };
+		D3EF026818EC40A7008F5193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3EF026A18EC40A7008F5193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3EF026C18EC40A7008F5193 /* World Traveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Traveler-Prefix.pch"; sourceTree = "<group>"; };
+		D3EF026D18EC40A7008F5193 /* FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAppDelegate.h; sourceTree = "<group>"; };
+		D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAppDelegate.m; sourceTree = "<group>"; };
+		D3EF027118EC40A7008F5193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3EF027318EC40A7008F5193 /* FMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMViewController.h; sourceTree = "<group>"; };
+		D3EF027418EC40A7008F5193 /* FMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMViewController.m; sourceTree = "<group>"; };
+		D3EF027618EC40A7008F5193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EF027D18EC40A8008F5193 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3EF028518EC40A8008F5193 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
+		D3EF028718EC40A8008F5193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3EF028918EC40A8008F5193 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3EF025818EC40A7008F5193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF026118EC40A7008F5193 /* CoreGraphics.framework in Frameworks */,
+				D3EF026318EC40A7008F5193 /* UIKit.framework in Frameworks */,
+				D3EF025F18EC40A7008F5193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027918EC40A8008F5193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF027E18EC40A8008F5193 /* XCTest.framework in Frameworks */,
+				D3EF028018EC40A8008F5193 /* UIKit.framework in Frameworks */,
+				D3EF027F18EC40A8008F5193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3EF025218EC40A7008F5193 = {
+			isa = PBXGroup;
+			children = (
+				D3EF026418EC40A7008F5193 /* World Traveler */,
+				D3EF028318EC40A8008F5193 /* World TravelerTests */,
+				D3EF025D18EC40A7008F5193 /* Frameworks */,
+				D3EF025C18EC40A7008F5193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3EF025C18EC40A7008F5193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF025B18EC40A7008F5193 /* World Traveler.app */,
+				D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EF025D18EC40A7008F5193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF025E18EC40A7008F5193 /* Foundation.framework */,
+				D3EF026018EC40A7008F5193 /* CoreGraphics.framework */,
+				D3EF026218EC40A7008F5193 /* UIKit.framework */,
+				D3EF027D18EC40A8008F5193 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3EF026418EC40A7008F5193 /* World Traveler */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF026D18EC40A7008F5193 /* FMAppDelegate.h */,
+				D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */,
+				D3EF027018EC40A7008F5193 /* Main.storyboard */,
+				D3EF027318EC40A7008F5193 /* FMViewController.h */,
+				D3EF027418EC40A7008F5193 /* FMViewController.m */,
+				D3EF027618EC40A7008F5193 /* Images.xcassets */,
+				D3EF026518EC40A7008F5193 /* Supporting Files */,
+			);
+			path = "World Traveler";
+			sourceTree = "<group>";
+		};
+		D3EF026518EC40A7008F5193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF026618EC40A7008F5193 /* World Traveler-Info.plist */,
+				D3EF026718EC40A7008F5193 /* InfoPlist.strings */,
+				D3EF026A18EC40A7008F5193 /* main.m */,
+				D3EF026C18EC40A7008F5193 /* World Traveler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3EF028318EC40A8008F5193 /* World TravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF028918EC40A8008F5193 /* World_TravelerTests.m */,
+				D3EF028418EC40A8008F5193 /* Supporting Files */,
+			);
+			path = "World TravelerTests";
+			sourceTree = "<group>";
+		};
+		D3EF028418EC40A8008F5193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF028518EC40A8008F5193 /* World TravelerTests-Info.plist */,
+				D3EF028618EC40A8008F5193 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3EF025A18EC40A7008F5193 /* World Traveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EF028D18EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World Traveler" */;
+			buildPhases = (
+				D3EF025718EC40A7008F5193 /* Sources */,
+				D3EF025818EC40A7008F5193 /* Frameworks */,
+				D3EF025918EC40A7008F5193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Traveler";
+			productName = "World Traveler";
+			productReference = D3EF025B18EC40A7008F5193 /* World Traveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3EF027B18EC40A8008F5193 /* World TravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EF029018EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World TravelerTests" */;
+			buildPhases = (
+				D3EF027818EC40A8008F5193 /* Sources */,
+				D3EF027918EC40A8008F5193 /* Frameworks */,
+				D3EF027A18EC40A8008F5193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3EF028218EC40A8008F5193 /* PBXTargetDependency */,
+			);
+			name = "World TravelerTests";
+			productName = "World TravelerTests";
+			productReference = D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EF025318EC40A7008F5193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fredrick Myers";
+				TargetAttributes = {
+					D3EF027B18EC40A8008F5193 = {
+						TestTargetID = D3EF025A18EC40A7008F5193;
+					};
+				};
+			};
+			buildConfigurationList = D3EF025618EC40A7008F5193 /* Build configuration list for PBXProject "World Traveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3EF025218EC40A7008F5193;
+			productRefGroup = D3EF025C18EC40A7008F5193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3EF025A18EC40A7008F5193 /* World Traveler */,
+				D3EF027B18EC40A8008F5193 /* World TravelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3EF025918EC40A7008F5193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF027718EC40A7008F5193 /* Images.xcassets in Resources */,
+				D3EF026918EC40A7008F5193 /* InfoPlist.strings in Resources */,
+				D3EF027218EC40A7008F5193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027A18EC40A8008F5193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF028818EC40A8008F5193 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3EF025718EC40A7008F5193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF026B18EC40A7008F5193 /* main.m in Sources */,
+				D3EF026F18EC40A7008F5193 /* FMAppDelegate.m in Sources */,
+				D3EF027518EC40A7008F5193 /* FMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027818EC40A8008F5193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF028A18EC40A8008F5193 /* World_TravelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3EF028218EC40A8008F5193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3EF025A18EC40A7008F5193 /* World Traveler */;
+			targetProxy = D3EF028118EC40A8008F5193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3EF026718EC40A7008F5193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF026818EC40A7008F5193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3EF027018EC40A7008F5193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF027118EC40A7008F5193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EF028618EC40A8008F5193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF028718EC40A8008F5193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3EF028B18EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3EF028C18EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3EF028E18EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3EF028F18EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3EF029118EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3EF029218EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3EF025618EC40A7008F5193 /* Build configuration list for PBXProject "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF028B18EC40A8008F5193 /* Debug */,
+				D3EF028C18EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EF028D18EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF028E18EC40A8008F5193 /* Debug */,
+				D3EF028F18EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3EF029018EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF029118EC40A8008F5193 /* Debug */,
+				D3EF029218EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3EF025318EC40A7008F5193 /* Project object */;
+}
