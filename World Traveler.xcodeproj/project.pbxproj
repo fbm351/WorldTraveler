@@ -1,1080 +1,676 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>05336140CE054D5F9DEA67D3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>0F724C41304E4C05B2B35651</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4346316A5C204F3C84F4BC45</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B577D2112FDB4C1CAEAF8282</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF025218EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF026418EC40A7008F5193</string>
-				<string>D3EF028318EC40A8008F5193</string>
-				<string>D3EF025D18EC40A7008F5193</string>
-				<string>D3EF025C18EC40A7008F5193</string>
-				<string>B577D2112FDB4C1CAEAF8282</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF025318EC40A7008F5193</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>FM</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Fredrick Myers</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>D3EF027B18EC40A8008F5193</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>D3EF025A18EC40A7008F5193</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D3EF025618EC40A7008F5193</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D3EF025218EC40A7008F5193</string>
-			<key>productRefGroup</key>
-			<string>D3EF025C18EC40A7008F5193</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D3EF025A18EC40A7008F5193</string>
-				<string>D3EF027B18EC40A8008F5193</string>
-			</array>
-		</dict>
-		<key>D3EF025618EC40A7008F5193</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D3EF028B18EC40A8008F5193</string>
-				<string>D3EF028C18EC40A8008F5193</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D3EF025718EC40A7008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF026B18EC40A7008F5193</string>
-				<string>D3EF026F18EC40A7008F5193</string>
-				<string>D3EF027518EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF025818EC40A7008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF026118EC40A7008F5193</string>
-				<string>D3EF026318EC40A7008F5193</string>
-				<string>D3EF025F18EC40A7008F5193</string>
-				<string>D50FA0C5F32E434B8573BAA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF025918EC40A7008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF027718EC40A7008F5193</string>
-				<string>D3EF026918EC40A7008F5193</string>
-				<string>D3EF027218EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF025A18EC40A7008F5193</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D3EF028D18EC40A8008F5193</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0F724C41304E4C05B2B35651</string>
-				<string>D3EF025718EC40A7008F5193</string>
-				<string>D3EF025818EC40A7008F5193</string>
-				<string>D3EF025918EC40A7008F5193</string>
-				<string>05336140CE054D5F9DEA67D3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>World Traveler</string>
-			<key>productName</key>
-			<string>World Traveler</string>
-			<key>productReference</key>
-			<string>D3EF025B18EC40A7008F5193</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D3EF025B18EC40A7008F5193</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>World Traveler.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D3EF025C18EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF025B18EC40A7008F5193</string>
-				<string>D3EF027C18EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF025D18EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF025E18EC40A7008F5193</string>
-				<string>D3EF026018EC40A7008F5193</string>
-				<string>D3EF026218EC40A7008F5193</string>
-				<string>D3EF027D18EC40A8008F5193</string>
-				<string>4346316A5C204F3C84F4BC45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF025E18EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D3EF025F18EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF025E18EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF026018EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D3EF026118EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026018EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF026218EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>D3EF026318EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026218EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF026418EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF026D18EC40A7008F5193</string>
-				<string>D3EF026E18EC40A7008F5193</string>
-				<string>D3EF027018EC40A7008F5193</string>
-				<string>D3EF027318EC40A7008F5193</string>
-				<string>D3EF027418EC40A7008F5193</string>
-				<string>D3EF027618EC40A7008F5193</string>
-				<string>D3EF026518EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>World Traveler</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026518EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF026618EC40A7008F5193</string>
-				<string>D3EF026718EC40A7008F5193</string>
-				<string>D3EF026A18EC40A7008F5193</string>
-				<string>D3EF026C18EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026618EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>World Traveler-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026718EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF026818EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026818EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026918EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026718EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF026A18EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026B18EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026A18EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF026C18EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>World Traveler-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026D18EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FMAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026E18EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FMAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF026F18EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026E18EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF027018EC40A7008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF027118EC40A7008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF027118EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF027218EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF027018EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF027318EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FMViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF027418EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FMViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF027518EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF027418EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF027618EC40A7008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF027718EC40A7008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF027618EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF027818EC40A8008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF028A18EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF027918EC40A8008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF027E18EC40A8008F5193</string>
-				<string>D3EF028018EC40A8008F5193</string>
-				<string>D3EF027F18EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF027A18EC40A8008F5193</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3EF028818EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3EF027B18EC40A8008F5193</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D3EF029018EC40A8008F5193</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D3EF027818EC40A8008F5193</string>
-				<string>D3EF027918EC40A8008F5193</string>
-				<string>D3EF027A18EC40A8008F5193</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D3EF028218EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>World TravelerTests</string>
-			<key>productName</key>
-			<string>World TravelerTests</string>
-			<key>productReference</key>
-			<string>D3EF027C18EC40A8008F5193</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>D3EF027C18EC40A8008F5193</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>World TravelerTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D3EF027D18EC40A8008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D3EF027E18EC40A8008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF027D18EC40A8008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF027F18EC40A8008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF025E18EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF028018EC40A8008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF026218EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF028118EC40A8008F5193</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D3EF025318EC40A7008F5193</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D3EF025A18EC40A7008F5193</string>
-			<key>remoteInfo</key>
-			<string>World Traveler</string>
-		</dict>
-		<key>D3EF028218EC40A8008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D3EF025A18EC40A7008F5193</string>
-			<key>targetProxy</key>
-			<string>D3EF028118EC40A8008F5193</string>
-		</dict>
-		<key>D3EF028318EC40A8008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF028918EC40A8008F5193</string>
-				<string>D3EF028418EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>World TravelerTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028418EC40A8008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF028518EC40A8008F5193</string>
-				<string>D3EF028618EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028518EC40A8008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>World TravelerTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028618EC40A8008F5193</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3EF028718EC40A8008F5193</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028718EC40A8008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028818EC40A8008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF028618EC40A8008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF028918EC40A8008F5193</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>World_TravelerTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EF028A18EC40A8008F5193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3EF028918EC40A8008F5193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EF028B18EC40A8008F5193</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D3EF028C18EC40A8008F5193</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D3EF028D18EC40A8008F5193</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D3EF028E18EC40A8008F5193</string>
-				<string>D3EF028F18EC40A8008F5193</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D3EF028E18EC40A8008F5193</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B577D2112FDB4C1CAEAF8282</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>World Traveler/World Traveler-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>World Traveler/World Traveler-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D3EF028F18EC40A8008F5193</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B577D2112FDB4C1CAEAF8282</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>World Traveler/World Traveler-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>World Traveler/World Traveler-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D3EF029018EC40A8008F5193</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D3EF029118EC40A8008F5193</string>
-				<string>D3EF029218EC40A8008F5193</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D3EF029118EC40A8008F5193</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>World Traveler/World Traveler-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>World TravelerTests/World TravelerTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D3EF029218EC40A8008F5193</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>World Traveler/World Traveler-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>World TravelerTests/World TravelerTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D50FA0C5F32E434B8573BAA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4346316A5C204F3C84F4BC45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D3EF025318EC40A7008F5193</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D361B9BA18EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9B718EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.m */; };
+		D361B9BB18EDA54C00E47BFE /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9B918EDA54C00E47BFE /* AFMMRecordResponseSerializer.m */; };
+		D361B9BE18EDA79800E47BFE /* FMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9BD18EDA79800E47BFE /* FMMapViewController.m */; };
+		D361B9C518EDA9A800E47BFE /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D361B9C318EDA9A800E47BFE /* WorldTravelerModel.xcdatamodeld */; };
+		D361B9C718EDA9CE00E47BFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361B9C618EDA9CE00E47BFE /* CoreData.framework */; };
+		D361B9DA18EDAE8100E47BFE /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9D918EDAE8100E47BFE /* Contact.m */; };
+		D361B9DD18EDAE8100E47BFE /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9DC18EDAE8100E47BFE /* Menu.m */; };
+		D361B9E018EDAE8100E47BFE /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9DF18EDAE8100E47BFE /* FSCategory.m */; };
+		D361B9E318EDAE8100E47BFE /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9E218EDAE8100E47BFE /* Venue.m */; };
+		D361B9E618EDAE8100E47BFE /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9E518EDAE8100E47BFE /* Location.m */; };
+		D361B9E918EDAEB600E47BFE /* FMRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9E818EDAEB600E47BFE /* FMRecord.m */; };
+		D361B9ED18EDB1CD00E47BFE /* FMFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9EC18EDB1CD00E47BFE /* FMFourSquareSessionManager.m */; };
+		D361B9EF18EDB47000E47BFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361B9EE18EDB47000E47BFE /* MapKit.framework */; };
+		D361B9F118EDB47800E47BFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361B9F018EDB47800E47BFE /* CoreLocation.framework */; };
+		D361B9F418EDE26300E47BFE /* FMDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */; };
+		D361B9F818EF357300E47BFE /* FMDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */; };
+		D3EF025F18EC40A7008F5193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF025E18EC40A7008F5193 /* Foundation.framework */; };
+		D3EF026118EC40A7008F5193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026018EC40A7008F5193 /* CoreGraphics.framework */; };
+		D3EF026318EC40A7008F5193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026218EC40A7008F5193 /* UIKit.framework */; };
+		D3EF026918EC40A7008F5193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EF026718EC40A7008F5193 /* InfoPlist.strings */; };
+		D3EF026B18EC40A7008F5193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF026A18EC40A7008F5193 /* main.m */; };
+		D3EF026F18EC40A7008F5193 /* FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */; };
+		D3EF027218EC40A7008F5193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EF027018EC40A7008F5193 /* Main.storyboard */; };
+		D3EF027518EC40A7008F5193 /* FMListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF027418EC40A7008F5193 /* FMListViewController.m */; };
+		D3EF027718EC40A7008F5193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EF027618EC40A7008F5193 /* Images.xcassets */; };
+		D3EF027E18EC40A8008F5193 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF027D18EC40A8008F5193 /* XCTest.framework */; };
+		D3EF027F18EC40A8008F5193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF025E18EC40A7008F5193 /* Foundation.framework */; };
+		D3EF028018EC40A8008F5193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026218EC40A7008F5193 /* UIKit.framework */; };
+		D3EF028818EC40A8008F5193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EF028618EC40A8008F5193 /* InfoPlist.strings */; };
+		D3EF028A18EC40A8008F5193 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF028918EC40A8008F5193 /* World_TravelerTests.m */; };
+		D50FA0C5F32E434B8573BAA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4346316A5C204F3C84F4BC45 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3EF028118EC40A8008F5193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EF025318EC40A7008F5193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3EF025A18EC40A7008F5193;
+			remoteInfo = "World Traveler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4346316A5C204F3C84F4BC45 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B577D2112FDB4C1CAEAF8282 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D361B9B618EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
+		D361B9B718EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
+		D361B9B818EDA54C00E47BFE /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
+		D361B9B918EDA54C00E47BFE /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
+		D361B9BC18EDA79800E47BFE /* FMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMapViewController.h; sourceTree = "<group>"; };
+		D361B9BD18EDA79800E47BFE /* FMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMapViewController.m; sourceTree = "<group>"; };
+		D361B9C418EDA9A800E47BFE /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
+		D361B9C618EDA9CE00E47BFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D361B9D818EDAE8100E47BFE /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		D361B9D918EDAE8100E47BFE /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		D361B9DB18EDAE8100E47BFE /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		D361B9DC18EDAE8100E47BFE /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		D361B9DE18EDAE8100E47BFE /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		D361B9DF18EDAE8100E47BFE /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		D361B9E118EDAE8100E47BFE /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		D361B9E218EDAE8100E47BFE /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		D361B9E418EDAE8100E47BFE /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		D361B9E518EDAE8100E47BFE /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		D361B9E718EDAEB600E47BFE /* FMRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRecord.h; sourceTree = "<group>"; };
+		D361B9E818EDAEB600E47BFE /* FMRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRecord.m; sourceTree = "<group>"; };
+		D361B9EB18EDB1CD00E47BFE /* FMFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFourSquareSessionManager.h; sourceTree = "<group>"; };
+		D361B9EC18EDB1CD00E47BFE /* FMFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFourSquareSessionManager.m; sourceTree = "<group>"; };
+		D361B9EE18EDB47000E47BFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D361B9F018EDB47800E47BFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D361B9F218EDE26300E47BFE /* FMDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDirectionsViewController.h; sourceTree = "<group>"; };
+		D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDirectionsViewController.m; sourceTree = "<group>"; };
+		D361B9F618EF357300E47BFE /* FMDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDirectionsListViewController.h; sourceTree = "<group>"; };
+		D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDirectionsListViewController.m; sourceTree = "<group>"; };
+		D3EF025B18EC40A7008F5193 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EF025E18EC40A7008F5193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3EF026018EC40A7008F5193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3EF026218EC40A7008F5193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3EF026618EC40A7008F5193 /* World Traveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Traveler-Info.plist"; sourceTree = "<group>"; };
+		D3EF026818EC40A7008F5193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3EF026A18EC40A7008F5193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3EF026C18EC40A7008F5193 /* World Traveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Traveler-Prefix.pch"; sourceTree = "<group>"; };
+		D3EF026D18EC40A7008F5193 /* FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAppDelegate.h; sourceTree = "<group>"; };
+		D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAppDelegate.m; sourceTree = "<group>"; };
+		D3EF027118EC40A7008F5193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3EF027318EC40A7008F5193 /* FMListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMListViewController.h; sourceTree = "<group>"; };
+		D3EF027418EC40A7008F5193 /* FMListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMListViewController.m; sourceTree = "<group>"; };
+		D3EF027618EC40A7008F5193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EF027D18EC40A8008F5193 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3EF028518EC40A8008F5193 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
+		D3EF028718EC40A8008F5193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3EF028918EC40A8008F5193 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3EF025818EC40A7008F5193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D361B9F118EDB47800E47BFE /* CoreLocation.framework in Frameworks */,
+				D361B9EF18EDB47000E47BFE /* MapKit.framework in Frameworks */,
+				D361B9C718EDA9CE00E47BFE /* CoreData.framework in Frameworks */,
+				D3EF026118EC40A7008F5193 /* CoreGraphics.framework in Frameworks */,
+				D3EF026318EC40A7008F5193 /* UIKit.framework in Frameworks */,
+				D3EF025F18EC40A7008F5193 /* Foundation.framework in Frameworks */,
+				D50FA0C5F32E434B8573BAA7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027918EC40A8008F5193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF027E18EC40A8008F5193 /* XCTest.framework in Frameworks */,
+				D3EF028018EC40A8008F5193 /* UIKit.framework in Frameworks */,
+				D3EF027F18EC40A8008F5193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D361B9B418EDA53700E47BFE /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9B518EDA54C00E47BFE /* AFMMRecordResponseSerializer */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		D361B9B518EDA54C00E47BFE /* AFMMRecordResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9B618EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.h */,
+				D361B9B718EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.m */,
+				D361B9B818EDA54C00E47BFE /* AFMMRecordResponseSerializer.h */,
+				D361B9B918EDA54C00E47BFE /* AFMMRecordResponseSerializer.m */,
+			);
+			path = AFMMRecordResponseSerializer;
+			sourceTree = "<group>";
+		};
+		D361B9BF18EDA96300E47BFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9C318EDA9A800E47BFE /* WorldTravelerModel.xcdatamodeld */,
+				D361B9D718EDADCA00E47BFE /* Model */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D361B9C018EDA96900E47BFE /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF026D18EC40A7008F5193 /* FMAppDelegate.h */,
+				D3EF026E18EC40A7008F5193 /* FMAppDelegate.m */,
+				D3EF027018EC40A7008F5193 /* Main.storyboard */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		D361B9C218EDA97C00E47BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF027318EC40A7008F5193 /* FMListViewController.h */,
+				D3EF027418EC40A7008F5193 /* FMListViewController.m */,
+				D361B9BC18EDA79800E47BFE /* FMMapViewController.h */,
+				D361B9BD18EDA79800E47BFE /* FMMapViewController.m */,
+				D361B9F218EDE26300E47BFE /* FMDirectionsViewController.h */,
+				D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */,
+				D361B9F618EF357300E47BFE /* FMDirectionsListViewController.h */,
+				D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D361B9D718EDADCA00E47BFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9E718EDAEB600E47BFE /* FMRecord.h */,
+				D361B9E818EDAEB600E47BFE /* FMRecord.m */,
+				D361B9E418EDAE8100E47BFE /* Location.h */,
+				D361B9E518EDAE8100E47BFE /* Location.m */,
+				D361B9E118EDAE8100E47BFE /* Venue.h */,
+				D361B9E218EDAE8100E47BFE /* Venue.m */,
+				D361B9DE18EDAE8100E47BFE /* FSCategory.h */,
+				D361B9DF18EDAE8100E47BFE /* FSCategory.m */,
+				D361B9DB18EDAE8100E47BFE /* Menu.h */,
+				D361B9DC18EDAE8100E47BFE /* Menu.m */,
+				D361B9D818EDAE8100E47BFE /* Contact.h */,
+				D361B9D918EDAE8100E47BFE /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D361B9EA18EDB18B00E47BFE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9EB18EDB1CD00E47BFE /* FMFourSquareSessionManager.h */,
+				D361B9EC18EDB1CD00E47BFE /* FMFourSquareSessionManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D3EF025218EC40A7008F5193 = {
+			isa = PBXGroup;
+			children = (
+				D3EF026418EC40A7008F5193 /* World Traveler */,
+				D3EF028318EC40A8008F5193 /* World TravelerTests */,
+				D3EF025D18EC40A7008F5193 /* Frameworks */,
+				D3EF025C18EC40A7008F5193 /* Products */,
+				B577D2112FDB4C1CAEAF8282 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D3EF025C18EC40A7008F5193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF025B18EC40A7008F5193 /* World Traveler.app */,
+				D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EF025D18EC40A7008F5193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9F018EDB47800E47BFE /* CoreLocation.framework */,
+				D361B9EE18EDB47000E47BFE /* MapKit.framework */,
+				D361B9C618EDA9CE00E47BFE /* CoreData.framework */,
+				D361B9B418EDA53700E47BFE /* Vendor */,
+				D3EF025E18EC40A7008F5193 /* Foundation.framework */,
+				D3EF026018EC40A7008F5193 /* CoreGraphics.framework */,
+				D3EF026218EC40A7008F5193 /* UIKit.framework */,
+				D3EF027D18EC40A8008F5193 /* XCTest.framework */,
+				4346316A5C204F3C84F4BC45 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3EF026418EC40A7008F5193 /* World Traveler */ = {
+			isa = PBXGroup;
+			children = (
+				D361B9EA18EDB18B00E47BFE /* API */,
+				D361B9C218EDA97C00E47BFE /* Views */,
+				D361B9C018EDA96900E47BFE /* Initialization */,
+				D361B9BF18EDA96300E47BFE /* Model */,
+				D3EF027618EC40A7008F5193 /* Images.xcassets */,
+				D3EF026518EC40A7008F5193 /* Supporting Files */,
+			);
+			path = "World Traveler";
+			sourceTree = "<group>";
+		};
+		D3EF026518EC40A7008F5193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF026618EC40A7008F5193 /* World Traveler-Info.plist */,
+				D3EF026718EC40A7008F5193 /* InfoPlist.strings */,
+				D3EF026A18EC40A7008F5193 /* main.m */,
+				D3EF026C18EC40A7008F5193 /* World Traveler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3EF028318EC40A8008F5193 /* World TravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF028918EC40A8008F5193 /* World_TravelerTests.m */,
+				D3EF028418EC40A8008F5193 /* Supporting Files */,
+			);
+			path = "World TravelerTests";
+			sourceTree = "<group>";
+		};
+		D3EF028418EC40A8008F5193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF028518EC40A8008F5193 /* World TravelerTests-Info.plist */,
+				D3EF028618EC40A8008F5193 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3EF025A18EC40A7008F5193 /* World Traveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EF028D18EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World Traveler" */;
+			buildPhases = (
+				0F724C41304E4C05B2B35651 /* Check Pods Manifest.lock */,
+				D3EF025718EC40A7008F5193 /* Sources */,
+				D3EF025818EC40A7008F5193 /* Frameworks */,
+				D3EF025918EC40A7008F5193 /* Resources */,
+				05336140CE054D5F9DEA67D3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Traveler";
+			productName = "World Traveler";
+			productReference = D3EF025B18EC40A7008F5193 /* World Traveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3EF027B18EC40A8008F5193 /* World TravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EF029018EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World TravelerTests" */;
+			buildPhases = (
+				D3EF027818EC40A8008F5193 /* Sources */,
+				D3EF027918EC40A8008F5193 /* Frameworks */,
+				D3EF027A18EC40A8008F5193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3EF028218EC40A8008F5193 /* PBXTargetDependency */,
+			);
+			name = "World TravelerTests";
+			productName = "World TravelerTests";
+			productReference = D3EF027C18EC40A8008F5193 /* World TravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EF025318EC40A7008F5193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fredrick Myers";
+				TargetAttributes = {
+					D3EF027B18EC40A8008F5193 = {
+						TestTargetID = D3EF025A18EC40A7008F5193;
+					};
+				};
+			};
+			buildConfigurationList = D3EF025618EC40A7008F5193 /* Build configuration list for PBXProject "World Traveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3EF025218EC40A7008F5193;
+			productRefGroup = D3EF025C18EC40A7008F5193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3EF025A18EC40A7008F5193 /* World Traveler */,
+				D3EF027B18EC40A8008F5193 /* World TravelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3EF025918EC40A7008F5193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF027718EC40A7008F5193 /* Images.xcassets in Resources */,
+				D3EF026918EC40A7008F5193 /* InfoPlist.strings in Resources */,
+				D3EF027218EC40A7008F5193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027A18EC40A8008F5193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF028818EC40A8008F5193 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05336140CE054D5F9DEA67D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F724C41304E4C05B2B35651 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3EF025718EC40A7008F5193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D361B9ED18EDB1CD00E47BFE /* FMFourSquareSessionManager.m in Sources */,
+				D361B9E918EDAEB600E47BFE /* FMRecord.m in Sources */,
+				D361B9E318EDAE8100E47BFE /* Venue.m in Sources */,
+				D361B9E018EDAE8100E47BFE /* FSCategory.m in Sources */,
+				D361B9DA18EDAE8100E47BFE /* Contact.m in Sources */,
+				D361B9F418EDE26300E47BFE /* FMDirectionsViewController.m in Sources */,
+				D361B9C518EDA9A800E47BFE /* WorldTravelerModel.xcdatamodeld in Sources */,
+				D361B9BB18EDA54C00E47BFE /* AFMMRecordResponseSerializer.m in Sources */,
+				D361B9BA18EDA54C00E47BFE /* AFMMRecordResponseSerializationMapper.m in Sources */,
+				D3EF026B18EC40A7008F5193 /* main.m in Sources */,
+				D361B9F818EF357300E47BFE /* FMDirectionsListViewController.m in Sources */,
+				D3EF026F18EC40A7008F5193 /* FMAppDelegate.m in Sources */,
+				D361B9BE18EDA79800E47BFE /* FMMapViewController.m in Sources */,
+				D3EF027518EC40A7008F5193 /* FMListViewController.m in Sources */,
+				D361B9E618EDAE8100E47BFE /* Location.m in Sources */,
+				D361B9DD18EDAE8100E47BFE /* Menu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EF027818EC40A8008F5193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF028A18EC40A8008F5193 /* World_TravelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3EF028218EC40A8008F5193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3EF025A18EC40A7008F5193 /* World Traveler */;
+			targetProxy = D3EF028118EC40A8008F5193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3EF026718EC40A7008F5193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF026818EC40A7008F5193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3EF027018EC40A7008F5193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF027118EC40A7008F5193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EF028618EC40A8008F5193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EF028718EC40A8008F5193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3EF028B18EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3EF028C18EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3EF028E18EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B577D2112FDB4C1CAEAF8282 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3EF028F18EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B577D2112FDB4C1CAEAF8282 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3EF029118EC40A8008F5193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3EF029218EC40A8008F5193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3EF025618EC40A7008F5193 /* Build configuration list for PBXProject "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF028B18EC40A8008F5193 /* Debug */,
+				D3EF028C18EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EF028D18EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF028E18EC40A8008F5193 /* Debug */,
+				D3EF028F18EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EF029018EC40A8008F5193 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EF029118EC40A8008F5193 /* Debug */,
+				D3EF029218EC40A8008F5193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D361B9C318EDA9A800E47BFE /* WorldTravelerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D361B9C418EDA9A800E47BFE /* WorldTravelerModel.xcdatamodel */,
+			);
+			currentVersion = D361B9C418EDA9A800E47BFE /* WorldTravelerModel.xcdatamodel */;
+			path = WorldTravelerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3EF025318EC40A7008F5193 /* Project object */;
+}
