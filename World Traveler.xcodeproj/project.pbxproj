@@ -23,6 +23,7 @@
 		D361B9F118EDB47800E47BFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361B9F018EDB47800E47BFE /* CoreLocation.framework */; };
 		D361B9F418EDE26300E47BFE /* FMDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */; };
 		D361B9F818EF357300E47BFE /* FMDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */; };
+		D361B9FB18F41CAC00E47BFE /* FMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D361B9FA18F41CAC00E47BFE /* FMMenuViewController.m */; };
 		D3EF025F18EC40A7008F5193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF025E18EC40A7008F5193 /* Foundation.framework */; };
 		D3EF026118EC40A7008F5193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026018EC40A7008F5193 /* CoreGraphics.framework */; };
 		D3EF026318EC40A7008F5193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF026218EC40A7008F5193 /* UIKit.framework */; };
@@ -81,6 +82,8 @@
 		D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDirectionsViewController.m; sourceTree = "<group>"; };
 		D361B9F618EF357300E47BFE /* FMDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDirectionsListViewController.h; sourceTree = "<group>"; };
 		D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDirectionsListViewController.m; sourceTree = "<group>"; };
+		D361B9F918F41CAC00E47BFE /* FMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMenuViewController.h; sourceTree = "<group>"; };
+		D361B9FA18F41CAC00E47BFE /* FMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMenuViewController.m; sourceTree = "<group>"; };
 		D3EF025B18EC40A7008F5193 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EF025E18EC40A7008F5193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3EF026018EC40A7008F5193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				D361B9F318EDE26300E47BFE /* FMDirectionsViewController.m */,
 				D361B9F618EF357300E47BFE /* FMDirectionsListViewController.h */,
 				D361B9F718EF357300E47BFE /* FMDirectionsListViewController.m */,
+				D361B9F918F41CAC00E47BFE /* FMMenuViewController.h */,
+				D361B9FA18F41CAC00E47BFE /* FMMenuViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				D3EF026F18EC40A7008F5193 /* FMAppDelegate.m in Sources */,
 				D361B9BE18EDA79800E47BFE /* FMMapViewController.m in Sources */,
 				D3EF027518EC40A7008F5193 /* FMListViewController.m in Sources */,
+				D361B9FB18F41CAC00E47BFE /* FMMenuViewController.m in Sources */,
 				D361B9E618EDAE8100E47BFE /* Location.m in Sources */,
 				D361B9DD18EDAE8100E47BFE /* Menu.m in Sources */,
 			);
