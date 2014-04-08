@@ -21,6 +21,18 @@ PODS:
     - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
   - MBProgressHUD (0.8)
+  - MMDrawerController (0.5.3):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.3)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.3):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.3):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.3):
+    - MMDrawerController/Core
   - MMRecord (1.2.0):
     - MMRecord/Core
   - MMRecord/Core (1.2.0)
@@ -29,12 +41,14 @@ DEPENDENCIES:
   - AFNetworking (~> 2.1.0)
   - MagicalRecord (~> 2.2)
   - MBProgressHUD (~> 0.8)
+  - MMDrawerController (~> 0.5.3)
   - MMRecord (~> 1.2.0)
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  MMDrawerController: 4445e1927e8947b7e2382136c9b7109840efbfb9
   MMRecord: acf4ce0ea87300bdd11b39c604a7f2c8e1a2044c
 
 COCOAPODS: 0.29.0
